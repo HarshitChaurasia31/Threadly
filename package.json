@@ -1,0 +1,28 @@
+{
+  "name": "threadly",
+  "version": "1.0.0",
+  "description": "📱 X Clone – Social Media Microblogging App  A simple Twitter/X-style clone built for learning and practicing HTML, CSS, JavaScript (or your stack). This project includes posting, liking, feed UI, and basic interactions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarshitChaurasia31/Threadly.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarshitChaurasia31/Threadly/issues"
+  },
+  "homepage": "https://github.com/HarshitChaurasia31/Threadly#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.22",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.18"
+  }
+}
