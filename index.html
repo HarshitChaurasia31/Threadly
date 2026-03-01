@@ -1,27 +1,28 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="src/output.css" />
 </head>
 
 <body class="bg-black">
-    <div class="container flex justify-center">
-        <div class="first  flex flex-col gap-y-2">
-            <div class="logo bg-transparent mt-2 ml-1.5 w-11 h-11 flex justify-center items-center rounded-full hover:bg-gray-200/10">
-            <svg class="w-9 h-9 fill-white" viewBox="0 0 24 24" aria-hidden="true"
-                class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
-                <g>
-                    <path
-                        d="M21.742 21.75l-7.563-11.179 7.056-8.321h-2.456l-5.691 6.714-4.54-6.714H2.359l7.29 10.776L2.25 21.75h2.456l6.035-7.118 4.818 7.118h6.191-.008zM7.739 3.818L18.81 20.182h-2.447L5.29 3.818h2.447z">
-                    </path>
-                </g>
-            </svg>
+    <div class="container flex justify-center gap-8">
+        <div class="first flex flex-col gap-y-2 sticky top-0 h-screen">
+            <div
+                class="logo bg-transparent mt-2 ml-1.5 w-11 h-11 flex justify-center items-center rounded-full hover:bg-gray-200/10">
+                <svg class="w-9 h-9 fill-white" viewBox="0 0 24 24" aria-hidden="true"
+                    class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                    <g>
+                        <path
+                            d="M21.742 21.75l-7.563-11.179 7.056-8.321h-2.456l-5.691 6.714-4.54-6.714H2.359l7.29 10.776L2.25 21.75h2.456l6.035-7.118 4.818 7.118h6.191-.008zM7.739 3.818L18.81 20.182h-2.447L5.29 3.818h2.447z">
+                        </path>
+                    </g>
+                </svg>
             </div>
-            <div class="home flex items-center gap-3 bg-transparent w-32 h-11 rounded-3xl px-2 hover:bg-gray-200/10 ">
+            <div class="home flex items-center gap-3 bg-transparent w-32 h-11 rounded-3xl px-2 hover:bg-gray-200/10">
                 <svg class="w-8 h-8 fill-white" viewBox="0 0 24 24" aria-hidden="true"
                     class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
                     <g>
@@ -43,7 +44,8 @@
                 </svg>
                 <p class="text-white font-bold">Explore</p>
             </div>
-            <div class="notification flex gap-3 bg-transparent w-40 h-11 rounded-3xl px-2 hover:bg-gray-200/10 items-center">
+            <div
+                class="notification flex gap-3 bg-transparent w-40 h-11 rounded-3xl px-2 hover:bg-gray-200/10 items-center">
                 <svg class="w-8 h-8 fill-white" viewBox="0 0 24 24" aria-hidden="true"
                     class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
                     <g>
@@ -52,7 +54,7 @@
                         </path>
                     </g>
                 </svg>
-                <p class="text-white font-bold ">Notification</p>
+                <p class="text-white font-bold">Notification</p>
             </div>
             <div class="message flex gap-3 bg-transparent w-36 h-11 rounded-3xl px-2 hover:bg-gray-200/10 items-center">
                 <svg class="w-8 h-8 fill-white" viewBox="0 0 24 24" aria-hidden="true"
@@ -63,7 +65,7 @@
                         </path>
                     </g>
                 </svg>
-                <p class="text-white  font-bold">Message</p>
+                <p class="text-white font-bold">Message</p>
             </div>
             <div class="grok flex gap-3 bg-transparent w-32 h-11 rounded-3xl px-2 hover:bg-gray-200/10 items-center">
                 <svg class="w-8 h-8 fill-white" viewBox="0 0 33 32" aria-hidden="true"
@@ -76,24 +78,41 @@
                 </svg>
                 <p class="text-white font-bold">Grok</p>
             </div>
-            <div class="bookmarks flex gap-3 bg-transparent w-40 h-11 rounded-3xl px-2 hover:bg-gray-200/10 items-center">
-                <svg class="w-8 h-8 fill-white" viewBox="0 0 24 24" aria-hidden="true" class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e"><g><path d="M4 4.5C4 3.12 5.119 2 6.5 2h11C18.881 2 20 3.12 20 4.5v18.44l-8-5.71-8 5.71V4.5zM6.5 4c-.276 0-.5.22-.5.5v14.56l6-4.29 6 4.29V4.5c0-.28-.224-.5-.5-.5h-11z"></path></g></svg>
-                <p class="text-white  font-bold">Bookmarks</p>
-            </div>
-            <div class="communities flex gap-3 bg-transparent w-44 h-11 rounded-3xl px-2 hover:bg-gray-200/10 items-center">
-                <svg class="w-8 h-8 fill-white" viewBox="0 0 24 24" aria-hidden="true" class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e"><g><path d="M7.501 19.917L7.471 21H.472l.029-1.027c.184-6.618 3.736-8.977 7-8.977.963 0 1.95.212 2.87.672-.444.478-.851 1.03-1.212 1.656-.507-.204-1.054-.329-1.658-.329-2.767 0-4.57 2.223-4.938 6.004H7.56c-.023.302-.05.599-.059.917zm15.998.056L23.528 21H9.472l.029-1.027c.184-6.618 3.736-8.977 7-8.977s6.816 2.358 7 8.977zM21.437 19c-.367-3.781-2.17-6.004-4.938-6.004s-4.57 2.223-4.938 6.004h9.875zm-4.938-9c-.799 0-1.527-.279-2.116-.73-.836-.64-1.384-1.638-1.384-2.77 0-1.93 1.567-3.5 3.5-3.5s3.5 1.57 3.5 3.5c0 1.132-.548 2.13-1.384 2.77-.589.451-1.317.73-2.116.73zm-1.5-3.5c0 .827.673 1.5 1.5 1.5s1.5-.673 1.5-1.5-.673-1.5-1.5-1.5-1.5.673-1.5 1.5zM7.5 3C9.433 3 11 4.57 11 6.5S9.433 10 7.5 10 4 8.43 4 6.5 5.567 3 7.5 3zm0 2C6.673 5 6 5.673 6 6.5S6.673 8 7.5 8 9 7.327 9 6.5 8.327 5 7.5 5z"></path></g></svg>
-                <p class="text-white  font-bold">Communities</p>
-            </div>
-            <div class="premiunm flex gap-3 bg-transparent w-36 h-11 rounded-3xl px-2 hover:bg-gray-200/10 items-center">
+            <div
+                class="bookmarks flex gap-3 bg-transparent w-40 h-11 rounded-3xl px-2 hover:bg-gray-200/10 items-center">
                 <svg class="w-8 h-8 fill-white" viewBox="0 0 24 24" aria-hidden="true"
-                class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
-                <g>
-                    <path
-                        d="M21.742 21.75l-7.563-11.179 7.056-8.321h-2.456l-5.691 6.714-4.54-6.714H2.359l7.29 10.776L2.25 21.75h2.456l6.035-7.118 4.818 7.118h6.191-.008zM7.739 3.818L18.81 20.182h-2.447L5.29 3.818h2.447z">
-                    </path>
-                </g>
-            </svg>
-                <p class="text-white  font-bold">Premium</p>
+                    class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
+                    <g>
+                        <path
+                            d="M4 4.5C4 3.12 5.119 2 6.5 2h11C18.881 2 20 3.12 20 4.5v18.44l-8-5.71-8 5.71V4.5zM6.5 4c-.276 0-.5.22-.5.5v14.56l6-4.29 6 4.29V4.5c0-.28-.224-.5-.5-.5h-11z">
+                        </path>
+                    </g>
+                </svg>
+                <p class="text-white font-bold">Bookmarks</p>
+            </div>
+            <div
+                class="communities flex gap-3 bg-transparent w-44 h-11 rounded-3xl px-2 hover:bg-gray-200/10 items-center">
+                <svg class="w-8 h-8 fill-white" viewBox="0 0 24 24" aria-hidden="true"
+                    class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
+                    <g>
+                        <path
+                            d="M7.501 19.917L7.471 21H.472l.029-1.027c.184-6.618 3.736-8.977 7-8.977.963 0 1.95.212 2.87.672-.444.478-.851 1.03-1.212 1.656-.507-.204-1.054-.329-1.658-.329-2.767 0-4.57 2.223-4.938 6.004H7.56c-.023.302-.05.599-.059.917zm15.998.056L23.528 21H9.472l.029-1.027c.184-6.618 3.736-8.977 7-8.977s6.816 2.358 7 8.977zM21.437 19c-.367-3.781-2.17-6.004-4.938-6.004s-4.57 2.223-4.938 6.004h9.875zm-4.938-9c-.799 0-1.527-.279-2.116-.73-.836-.64-1.384-1.638-1.384-2.77 0-1.93 1.567-3.5 3.5-3.5s3.5 1.57 3.5 3.5c0 1.132-.548 2.13-1.384 2.77-.589.451-1.317.73-2.116.73zm-1.5-3.5c0 .827.673 1.5 1.5 1.5s1.5-.673 1.5-1.5-.673-1.5-1.5-1.5-1.5.673-1.5 1.5zM7.5 3C9.433 3 11 4.57 11 6.5S9.433 10 7.5 10 4 8.43 4 6.5 5.567 3 7.5 3zm0 2C6.673 5 6 5.673 6 6.5S6.673 8 7.5 8 9 7.327 9 6.5 8.327 5 7.5 5z">
+                        </path>
+                    </g>
+                </svg>
+                <p class="text-white font-bold">Communities</p>
+            </div>
+            <div
+                class="premiunm flex gap-3 bg-transparent w-36 h-11 rounded-3xl px-2 hover:bg-gray-200/10 items-center">
+                <svg class="w-8 h-8 fill-white" viewBox="0 0 24 24" aria-hidden="true"
+                    class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                    <g>
+                        <path
+                            d="M21.742 21.75l-7.563-11.179 7.056-8.321h-2.456l-5.691 6.714-4.54-6.714H2.359l7.29 10.776L2.25 21.75h2.456l6.035-7.118 4.818 7.118h6.191-.008zM7.739 3.818L18.81 20.182h-2.447L5.29 3.818h2.447z">
+                        </path>
+                    </g>
+                </svg>
+                <p class="text-white font-bold">Premium</p>
             </div>
             <div class="profile flex gap-3 bg-transparent w-32 h-11 rounded-3xl px-2 hover:bg-gray-200/10 items-center">
                 <svg class="w-8 h-8 fill-white" viewBox="0 0 24 24" aria-hidden="true"
@@ -104,7 +123,7 @@
                         </path>
                     </g>
                 </svg>
-                <p class="text-white  font-bold">Profile</p>
+                <p class="text-white font-bold">Profile</p>
             </div>
             <div class="more flex gap-3 bg-transparent w-28 h-11 rounded-3xl px-2 hover:bg-gray-200/10 items-center">
                 <svg class="w-8 h-8 fill-white" viewBox="0 0 24 24" aria-hidden="true"
@@ -117,7 +136,9 @@
                 </svg>
                 <p class="text-white font-bold">More</p>
             </div>
-            <button class="bg-white rounded-full w-60 py-3 h-14 font-bold mb-2 mt-2 text-[1.2rem]">Post</button>
+            <button class="bg-white rounded-full w-60 py-3 h-14 font-semibold mb-2 mt-2 text-[1.2rem]">
+                Post
+            </button>
             <div class="account flex justify-between items-center w-72">
                 <div class="info1 flex gap-2 items-center">
                     <div class="imgcircle rounded-full w-10 h-10 bg-blue-800"></div>
@@ -127,13 +148,32 @@
                     </ul>
                 </div>
                 <div class="w-7 h-7 bg-transparent hover:bg-gray-200/10 rounded-full flex justify-center items-center">
-                <svg class="w-6 h-6 fill-white" viewBox="0 0 24 24" aria-hidden="true" class="r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i"><g><path d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"></path></g></svg>
+                    <svg class="w-6 h-6 fill-white" viewBox="0 0 24 24" aria-hidden="true"
+                        class="r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i">
+                        <g>
+                            <path
+                                d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z">
+                            </path>
+                        </g>
+                    </svg>
                 </div>
             </div>
         </div>
-        <div class="second bg-slate-300 ">W</div>
+        <div class="second bg-transparent text-white w-152 border border-t-0 border-gray-400">
+            <div class="flex justify-around border border-gray-400 border-t-0 border-l-0 border-r-0 items-center">
+                <span>
+                    <p class="mt-4 mb-3 font-semibold">For you</p>
+                    <p class="h-1 w-14 rounded-2xl bg-blue-400"></p>
+                </span>
+                <span>
+                    <p class="text-gray-300 mt-4 mb-3">Following</p>
+                    <p class="h-1 w-[4.3rem] rounded-2xl bg-blue-400 hidden"></p>
+                </span>
+            </div>
+        </div>
         <div class="third bg-transparent flex flex-col gap-3.5">
-            <div class="serach-bar border-2 w-[24rem] h-10 rounded-3xl mt-1 flex items-center justify-start p-3 gap-1 border-gray-300/40">
+            <div
+                class="serach-bar border-2 w-[24rem] h-10 rounded-3xl mt-1 flex items-center justify-start p-3 gap-1 border-gray-300/40">
                 <svg class="w-3.5 h-3.5 fill-gray-300/40" viewBox="0 0 24 24" aria-hidden="true"
                     class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
                     <g>
@@ -144,13 +184,202 @@
                 </svg>
                 <p class="text-slate-300/50 text-xs">Search</p>
             </div>
-            <div class="subscribe border-2 border-gray-300/50 rounded-3xl w-[24rem] h-44 flex flex-col px-2 ">
+            <div class="subscribe border-2 border-gray-300/50 rounded-3xl w-[24rem] h-44 flex flex-col px-2">
                 <div class="flex p-2 gap-1.5 items-center mt-1.5">
                     <h1 class="text-white text-xl font-bold">Subscribe to Premium</h1>
-                    <h2 class="bg-emerald-300/15 px-2 py-0.5 border-0 rounded-xl text-green-400 font-semibold">50% off</h2>
+                    <h2 class="bg-emerald-300/15 px-2 py-0.5 border-0 rounded-xl text-green-400 font-semibold">
+                        50% off
+                    </h2>
                 </div>
-                <p class="text-white px-2">Get rid of ads, see your analytics, boost your replies and unlock 20+ features.</p>
-                <button class="mt-3.5 ml-2 p-2 bg-blue-400 border-0 rounded-3xl w-28 text-white font-bold flex justify-center items-center hover:bg-blue-500 cursor-pointer">Subscribe</button>
+                <p class="text-white px-2">
+                    Get rid of ads, see your analytics, boost your replies and unlock
+                    20+ features.
+                </p>
+                <button
+                    class="mt-3.5 ml-2 p-2 bg-blue-400 border-0 rounded-3xl w-28 text-white font-bold flex justify-center items-center hover:bg-blue-500 cursor-pointer">
+                    Subscribe
+                </button>
+            </div>
+            <div class="news border-2 border-gray-300/50 rounded-3xl w-[24rem] h-96 flex flex-col gap-3">
+                <div class="flex justify-between mt-2.5 mr-3 ml-5 items-center mb-3">
+                    <h1 class="text-white text-xl font-bold">Today's News</h1>
+                    <p
+                        class="text-white hover:bg-gray-200/10 flex justify-center items-center cursor-pointer w-5 h-5 rounded-full">
+                        X
+                    </p>
+                </div>
+                <div class="hover:bg-[#6F4E37]/20 cursor-pointer rounded-xl p-2 transition flex flex-col gap-1">
+                    <p class="text-white font-bold ml-3 text-[0.85rem]">
+                        India Minister Urges Platforms to Fairly Share Revenue with
+                        Creators
+                    </p>
+
+                    <div class="flex items-center">
+                        <div class="flex ml-3 gap-2 items-center mr-2">
+                            <img class="w-8 h-8 rounded-full z-30" src="anuv-jain.jpg" alt="" />
+                            <img class="w-8 h-8 rounded-full -ml-5 z-20" src="arjit-singh.jpg" alt="" />
+                            <img class="w-8 h-8 rounded-full -ml-5 z-10" src="ar-rahman.jpg" alt="" />
+                            <p class="text-gray-300 text-xs">2 days ago</p>
+                        </div>
+
+                        <ul class="text-white text-xs flex gap-2 list-disc list-inside pl-2">
+                            <li>News</li>
+                            <li>9,031 posts</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hover:bg-[#6F4E37]/20 cursor-pointer rounded-xl p-2 transition flex flex-col gap-1">
+                    <p class="text-white font-bold ml-3 text-[0.85rem]">
+                        India Minister Urges Platforms to Fairly Share Revenue with
+                        Creators
+                    </p>
+
+                    <div class="flex items-center">
+                        <div class="flex ml-3 gap-2 items-center mr-2">
+                            <img class="w-8 h-8 rounded-full z-30" src="anuv-jain.jpg" alt="" />
+                            <img class="w-8 h-8 rounded-full -ml-5 z-20" src="arjit-singh.jpg" alt="" />
+                            <img class="w-8 h-8 rounded-full -ml-5 z-10" src="ar-rahman.jpg" alt="" />
+                            <p class="text-gray-300 text-xs">2 days ago</p>
+                        </div>
+
+                        <ul class="text-white text-xs flex gap-2 list-disc list-inside pl-2">
+                            <li>News</li>
+                            <li>9,031 posts</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hover:bg-[#6F4E37]/20 cursor-pointer rounded-xl p-2 transition flex flex-col gap-1 h-32">
+                    <p class="text-white font-bold ml-3 text-[0.85rem]">
+                        India Minister Urges Platforms to Fairly Share Revenue with
+                        Creators
+                    </p>
+
+                    <div class="flex items-center">
+                        <div class="flex ml-3 gap-2 items-center mr-2">
+                            <img class="w-8 h-8 rounded-full z-30" src="anuv-jain.jpg" alt="" />
+                            <img class="w-8 h-8 rounded-full -ml-5 z-20" src="arjit-singh.jpg" alt="" />
+                            <img class="w-8 h-8 rounded-full -ml-5 z-10" src="ar-rahman.jpg" alt="" />
+                            <p class="text-gray-300 text-xs">2 days ago</p>
+                        </div>
+
+                        <ul class="text-white text-xs flex gap-2 list-disc list-inside pl-2">
+                            <li>News</li>
+                            <li>9,031 posts</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="text-white trend border-2 border-gray-300/50 rounded-3xl w-[24rem] h-80 flex flex-col gap-2">
+                <h1 class="font-bold text-xl mt-2.5 ml-5 mb-1">What's happening</h1>
+                <div class="flex items-center justify-between hover:bg-[#6F4E37]/20 cursor-pointer transition rounded-2xl py-2">
+                    <div>
+                        <div class="flex items-center ml-5 text-sm text-gray-400">
+                            <span>Politics</span>
+                            <span class="mx-1">•</span>
+                            <span>Trending</span>
+                        </div>
+                        <p class="font-bold ml-5">#Iran</p>
+                    </div>
+                    <svg class="w-4 h-4 fill-gray-400 mr-5" viewBox="0 0 24 24" aria-hidden="true"
+                        class="r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i">
+                        <g>
+                            <path
+                                d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z">
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="flex items-center justify-between hover:bg-[#6F4E37]/20 cursor-pointer transition rounded-2xl py-2">
+                    <div>
+                        <div class="flex items-center ml-5 text-sm text-gray-400">
+                            <span>Politics</span>
+                            <span class="mx-1">•</span>
+                            <span>Trending</span>
+                        </div>
+                        <p class="font-bold ml-5">#Iran</p>
+                    </div>
+                    <svg class="w-4 h-4 fill-gray-400 mr-5" viewBox="0 0 24 24" aria-hidden="true"
+                        class="r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i">
+                        <g>
+                            <path
+                                d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z">
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="flex items-center justify-between hover:bg-[#6F4E37]/20 cursor-pointer transition rounded-2xl py-2">
+                    <div>
+                        <div class="flex items-center ml-5 text-sm text-gray-400">
+                            <span>Politics</span>
+                            <span class="mx-1">•</span>
+                            <span>Trending</span>
+                        </div>
+                        <p class="font-bold ml-5">#Iran</p>
+                    </div>
+                    <svg class="w-4 h-4 fill-gray-400 mr-5" viewBox="0 0 24 24" aria-hidden="true"
+                        class="r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i">
+                        <g>
+                            <path
+                                d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z">
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="hover:bg-[#6F4E37]/20 cursor-pointer h-16 flex items-center rounded-2xl">
+                    <p class="text-blue-500 ml-5">Show More</p>
+                </div>
+            </div>
+            <div class="follow border-2 text-white border-gray-300/50 rounded-3xl w-[24rem] h-80 flex flex-col gap-2">
+                <h1 class="text-xl font-bold mt-2.5 ml-5 mb-1">Who to follow</h1>
+                <div class="hover:bg-[#6F4E37]/20 rounded-2xl flex justify-between items-center">
+                    <div class="flex gap-2 ml-5 py-2">
+                        <img class="w-12 h-12 rounded-xl" src="ar-rahman.jpg" alt="">
+                        <div>
+                            <p>A.R Rahman</p>
+                            <p class="text-gray-400">@arrahman</p>
+                        </div>
+                    </div>
+                    <button class="mr-3 cursor-pointer bg-white text-black px-2.5 py-1 font-semibold rounded-2xl hover:bg-gray-300">Follow</button>
+                </div>
+                <div class="hover:bg-[#6F4E37]/20 rounded-2xl flex  justify-between items-center">
+                    <div class="flex gap-2 ml-5 py-2">
+                        <img class="w-12 h-12 rounded-xl" src="ar-rahman.jpg" alt="">
+                        <div>
+                            <p>A.R Rahman</p>
+                            <p class="text-gray-400">@arrahman</p>
+                        </div>
+                    </div>
+                    <button class="mr-3 cursor-pointer bg-white text-black px-2.5 py-1 font-semibold rounded-2xl hover:bg-gray-300">Follow</button>
+                </div>
+                <div class="hover:bg-[#6F4E37]/20 rounded-2xl flex justify-between items-center">
+                    <div class="flex gap-2 ml-5 py-2">
+                        <img class="w-12 h-12 rounded-xl" src="ar-rahman.jpg" alt="">
+                        <div>
+                            <p>A.R Rahman</p>
+                            <p class="text-gray-400">@arrahman</p>
+                        </div>
+                    </div>
+                    <button class="mr-3 cursor-pointer bg-white text-black px-2.5 py-1 font-semibold rounded-2xl hover:bg-gray-300">Follow</button>
+                </div>
+                <div class="hover:bg-[#6F4E37]/20 cursor-pointer py-2 h-14 flex items-center rounded-2xl">
+                    <p class="text-blue-500 ml-5">Show More</p>
+                </div>
+            </div>
+            <div class="text-gray-400 text-xs flex gap-2.5 ">
+                <span>Terms of Service</span>
+                <span>|</span>
+                <span>Privacy Policy</span>
+                <span>|</span>
+                <span>Cookie Policy</span>
+                <span>|</span>
+            </div>
+            <div class="text-gray-400 text-xs flex gap-2.5">
+                <span>Accessability</span>
+                <span>|</span>
+                <span>Ads info</span>
+                <span>|</span>
+                <span>More...</span>
+                <span>© 2026 X Corp.</span>
             </div>
         </div>
     </div>
